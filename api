@@ -1,0 +1,7 @@
+import ccxt
+from config import myconfig
+exchange = ccxt.binance({
+                         “apiKey”: myconfig.wtExs4CrpMezIBS8e4z51x2BK9jsdZrcr2MG56qpm1KWzaFGb1uxaYfpEq00z8sq,
+                         “secret”: myconfig.YuHYA94VGEt29SHFm09KuGoyt7BC0oePacCkseo8rJtymVjtbObN1a8roCyTfhKF
+                       })
+           
